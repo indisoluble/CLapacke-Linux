@@ -1,0 +1,5 @@
+module CLapacke_Linux [system] {
+  header "/usr/include/CLapacke_Linux.h"
+  link "CLapacke_Linux"
+  export *
+}
