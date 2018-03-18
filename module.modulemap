@@ -1,5 +1,8 @@
 module CLapacke_Linux [system] {
-  header "/usr/include/CLapacke_Linux.h"
-  link "CLapacke_Linux"
+  header "/usr/include/lapacke.h"
+
+  link "lapack"
+  link "blas"
+
   export *
 }
